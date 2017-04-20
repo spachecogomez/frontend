@@ -7,6 +7,7 @@
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
+    "clean": "rm -rf dist",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
