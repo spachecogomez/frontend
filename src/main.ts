@@ -6,6 +6,7 @@ import { environment } from './environments/environment';
 
 if (environment.production) {
   enableProdMode();
+  console.log('this fucking is prod');
 }
 
 platformBrowserDynamic().bootstrapModule(AppModule);
